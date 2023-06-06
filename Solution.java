@@ -15,6 +15,7 @@ class Solution {
 		char[] upper = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 		char[] list = T.toUpperCase().toCharArray();
 
+		//Con este primer bucle almaceno en el array de enteros el ancho de cada letra en función de su posición
 		if (W > 0 && W < 30 && H > 0 && H < 30) {
 			for (int i = 0; i < T.length(); i++) {
 				boolean find = false;
